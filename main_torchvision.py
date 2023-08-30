@@ -72,7 +72,7 @@ if __name__ == '__main__':
     keypoint_rcnn_model = get_model(device)
     
     # load images
-    images = glob.glob("./images/*.jpg")
+    images = glob.glob("./images/*.png")
     im = cv2.imread(images[0])
 
     tensor = image_to_tensor([im], device)
