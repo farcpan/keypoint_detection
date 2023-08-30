@@ -13,7 +13,7 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog, DatasetCatalog
 
 # load images
-images = glob.glob("./images/*.jpg")
+images = glob.glob("./images/*.png")
 im = cv2.imread(images[0])
 
 # Keypoint Detection
